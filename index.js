@@ -137,6 +137,80 @@ let resultadoDeOtraSuma = sumar(4, 5);*/
 
 //////////////EJERCICIOS////////////
 
+//Ejercicio 1 -Definí una función sumar que reciba como argumentos dos números y devuelva la suma de ellos//
+
+/*const sumar = (num1, num2) => {
+  return num1 + num2;
+  
+}
+
+let resultadoPrimeraSuma = sumar(2, 3);
+
+let resultadoSegundaSuma = sumar(1.2, 3.4);
+
+let resultadoTercerSuma = sumar(3, -5);
+
+console.log(resultadoPrimeraSuma);
+console.log(resultadoSegundaSuma);
+console.log(resultadoTercerSuma);*/
+
+
+//Retorna directamente sin definirlo en una variable
+
+//EJERCICIO 2//
+
+/*const restar = (num1, num2) => { 
+  return num1 - num2;
+ }
+ 
+ let resultadoPrimerResta = restar(3, 2);
+ 
+ let resultadoSegundaResta = restar(10, 5.5);
+ 
+ let restuladoTercerResta = restar(3, 5);
+
+ console.log(resultadoPrimerResta);
+
+ console.log(resultadoSegundaResta);
+
+ console.log(restuladoTercerResta);*/
+
+
+
+//EJERCICIO 3//
+
+/*const multiplicar = (num1, num2) => {
+  return num1 * num2;
+  
+}
+let resultadoPrimerMultiplicacion = multiplicar(2, 3);
+
+let resultadoSegundaMultiplicacion = multiplicar(4, 0.5);
+
+console.log(resultadoPrimerMultiplicacion);
+
+console.log(resultadoSegundaMultiplicacion);*/
+
+//EJERCICIO 4 //
+
+/*const dividir = (numero1, numero2) => {
+  return numero1 / numero2;
+}
+
+let resultadoPrimeraDivision = dividir(2, 3);
+
+let resultadoSegundaDivision = dividir(1.2, 3.4);
+
+let resultadoTerceraDivision = dividir(3, -5);
+
+console.log(resultadoPrimeraDivision);
+
+console.log(resultadoSegundaDivision);
+
+console.log(resultadoTerceraDivision);*/
+
+
+
 
 
 

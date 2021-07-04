@@ -237,6 +237,33 @@ console.log(gritoUno);
 
 console.log(gritoDos);*/
 
+// EJERCICIO 7//
+
+/*const obtenerNombreCompleto = (nombre, apellido) => {
+   return (nombre + " " + apellido);
+}
+
+let primerNombreYApellido = obtenerNombreCompleto("Ada", "Lovelace");
+
+console.log(primerNombreYApellido);*/
+
+// EJERCICIO 8 //
+
+/*const saludar = (nombre) => {
+  return "Hola " + nombre + ", un gusto conocerte";
+}
+
+let nombreUsuaria = saludar("Ada");
+
+console.log(nombreUsuaria);*/
+
+
+//EJERCICIO 9//
+
+
+
+
+
 
 
 

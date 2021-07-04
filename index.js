@@ -209,6 +209,35 @@ console.log(resultadoSegundaDivision);
 
 console.log(resultadoTerceraDivision);*/
 
+//EJERCICIO 5//
+
+/*const calcularAreaTriangulo = (base, altura) =>{
+  return base * altura / 2
+}
+
+let medidaPrimerTriangulo = calcularAreaTriangulo(3, 4);
+
+let medidaSegundoTriangulo = calcularAreaTriangulo(5, 6);
+
+console.log(medidaPrimerTriangulo);
+
+console.log(medidaSegundoTriangulo);*/
+
+//EJERCICIO 6//
+
+/*const gritar = (palabra) => {
+  return "¡" + palabra + "!";
+}
+
+let gritoUno = gritar("hola");
+
+let gritoDos = gritar("aaaaaa");
+
+console.log(gritoUno);
+
+console.log(gritoDos);*/
+
+
 
 
 

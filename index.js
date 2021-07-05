@@ -260,6 +260,84 @@ console.log(nombreUsuaria);*/
 
 //EJERCICIO 9//
 
+/*const  saludarGritando  =  ( nombre ,  apellido )  =>  {
+  return ( "¡Hola " + nombre + " " + apellido + ", " + "un gusto conocerte!" ) ;
+} ;
+
+let saludoCompleto = saludarGritando("Ada", "Lovelace");
+
+
+NO ESTOY CONFORME CON LA RESOLUCION PORQUE NO SUPE COMO UAR LAS FUNCIONE ANTERIORES.
+
+const saludarGritando = (gritar, saludar, primerNombreYApellido, ) =>{
+
+return gritar + saludar + primerNombreYApellido;
+}
+
+let saludoCompleto = saludarGritando( ,Ada Lovelace, )*/
+
+// EJERCICIO 10 //
+
+/*const obtenerDatosDeCiudad = (nombre, poblacion, pais) =>{
+  return ("La ciudad de " + nombre + " tiene una población de " + poblacion + " habitantes y está ubicada en " + pais); 
+}
+
+let datosCompletosCiudad = obtenerDatosDeCiudad("Santa Fe", "545606", "Argentina");*/
+
+// EJERCICIO 11 //
+
+/*const convertirHorasEnSegundos = (horas) => {
+  return Number(horas) * 3600;
+}
+
+let primerHora = convertirHorasEnSegundos(1);
+ 
+let segundaHora = convertirHorasEnSegundos(3);
+
+let tercerHora = convertirHorasEnSegundos(4.5);
+
+console.log(primerHora);
+
+console.log(segundaHora);
+
+console.log(tercerHora);*/
+
+// EJERCICIO 12 //
+
+/*const calcularPerimetroRectangulo = (ancho, alto) => {
+  return (ancho + alto)*2; 
+}
+
+let perimetroRectanguloUno = calcularPerimetroRectangulo(3.2, 5);
+
+let perimetroRectanguloDos = calcularPerimetroRectangulo(10, 20);
+
+console.log(perimetroRectanguloUno);
+
+console.log(perimetroRectanguloDos);*/
+
+// EJERCICIO 13 //
+
+/*const calcularPorcentaje = (total, porcentaje) => {
+  return (total * porcentaje / 100);
+}
+
+let resultadoPorcentajeUno = calcularPorcentaje(100, 15);
+
+let resultadoPorcentajeDos = calcularPorcentaje(10, 50);
+
+let resultadoPorcentajeTres = calcularPorcentaje(200, 10);
+
+console.log(resultadoPorcentajeUno);
+
+console.log(resultadoPorcentajeDos);
+
+console.log(resultadoPorcentajeTres);*/
+
+//EJERCICIO 14 //
+
+
+
 
 
 

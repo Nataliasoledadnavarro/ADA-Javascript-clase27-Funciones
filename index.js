@@ -269,12 +269,33 @@ let saludoCompleto = saludarGritando("Ada", "Lovelace");
 
 NO ESTOY CONFORME CON LA RESOLUCION PORQUE NO SUPE COMO UAR LAS FUNCIONE ANTERIORES.
 
-const saludarGritando = (gritar, saludar, primerNombreYApellido, ) =>{
+const gritar = (palabra) => {
+  return "¡" + palabra + "!";
+};
 
-return gritar + saludar + primerNombreYApellido;
-}
+let gritoUno = gritar("hola");
 
-let saludoCompleto = saludarGritando( ,Ada Lovelace, )*/
+let gritoDos = gritar("aaaaaa");
+
+const obtenerNombreCompleto = (nombre, apellido) => {
+  return nombre + " " + apellido;
+};
+
+let primerNombreYApellido = obtenerNombreCompleto("Ada", "Lovelace");
+
+const saludar = (nombre) => {
+  return "Hola " + nombre + ", un gusto conocerte";
+};
+
+let nombreUsuaria = saludar("Ada");
+
+const saludarGritando = (nombre, apellido) => {
+  return gritar(saludar(obtenerNombreCompleto(nombre, apellido)));
+};
+
+saludarGritando("Ada", "Lovelace");
+
+console.log(saludarGritando);
 
 // EJERCICIO 10 //
 
@@ -335,6 +356,65 @@ console.log(resultadoPorcentajeDos);
 console.log(resultadoPorcentajeTres);*/
 
 //EJERCICIO 14 //
+
+/*const sumarPorcentaje = (numero, porcentaje) => {
+  let resultadoPorcentaje = calcularPorcentaje(numero, porcentaje);
+  
+  return (resultadoPorcentaje + numero)
+  
+}
+
+sumarPorcentaje(100, 15);*/
+
+//EJERCICIO 15 //
+
+/*const restarPorcentaje = (numero, porcentaje) => {
+  let resultadoRestaPorcentaje = calcularPorcentaje(numero, porcentaje);
+  
+  return (numero - resultadoRestaPorcentaje);
+}
+
+restarPorcentaje(100, 15)
+
+restarPorcentaje(10, 40)
+
+restarPorcentaje(200, 10)*/
+
+// EJERCICIO 16 //
+
+/*const calcularFPS = (cuadros, minutos) => {
+  return (cuadros * 60 * minutos);
+}
+
+console.log(calcularFPS(1, 1));
+
+console.log(calcularFPS(10, 2));
+
+console.log(calcularFPS(2, 3));*/
+
+// EJERCICIO 17 //
+
+/*const obtenerCompetencia = (a, b) => {
+  return a + " vs. " + b;
+}
+
+obtenerCompetencia("JavaScript", "Python");
+
+obtenerCompetencia("Coca", "Pepsi");
+
+obtenerCompetencia("Perros", "Gatos");*/
+
+// EJERCICIO 18 //
+
+/*const generarEmail = (usuario, dominio) => {
+  return (usuario + "@" + dominio + ".com");
+}
+
+generarEmail("adalovelace", "gmail");*/
+
+//EJERICICIO 19 //
+
+
 
 
 

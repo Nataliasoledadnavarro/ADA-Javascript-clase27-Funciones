@@ -414,7 +414,19 @@ generarEmail("adalovelace", "gmail");*/
 
 //EJERICICIO 19 //
 
+/*const calcularPuntaje = (num1, num2, num3) => {
+  let facil = 3;
+  let normal = 5;
+  let dificil = 10;
+  
+  return (num1*facil) + (num2*normal) + (num3*dificil);
+}
 
+calcularPuntaje(3, 0, 0);
+
+calcularPuntaje(0, 2, 1);
+
+calcularPuntaje(5, 1, 2);*/
 
 
 
